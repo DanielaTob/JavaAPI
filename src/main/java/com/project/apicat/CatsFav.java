@@ -1,11 +1,12 @@
 package com.project.apicat;
 
-public class Cats {
+public class CatsFav {
 
+    public Cats image;
     String id;
-    String url;
+    String image_id;
     String apikey = "live_KS3fiWEpwLbHDkySxwGXBhxjFMaBHVrJekk2wzHvhsC11z8OfYyDA6ER2ZBRmYFb";
-    String image;
+    ImageX imageX;
 
     public String getId() {
         return id;
@@ -15,12 +16,12 @@ public class Cats {
         this.id = id;
     }
 
-    public String getUrl() {
-        return url;
+    public String getImage_id() {
+        return image_id;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
+    public void setImage_id(String image_id) {
+        this.image_id = image_id;
     }
 
     public String getApikey() {
@@ -31,11 +32,11 @@ public class Cats {
         this.apikey = apikey;
     }
 
-    public String getImage() {
-        return image;
+    public ImageX getImageX() {
+        return imageX;
     }
 
-    public void setImage(String image) {
-        this.image = image;
+    public void setImageX(ImageX imageX) {
+        this.imageX = imageX;
     }
 }
